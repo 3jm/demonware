@@ -1,6 +1,6 @@
 local lplr = game.Players.LocalPlayer
 local http_request = syn and syn.request or request;
-local unsupported_games = loadstring(game:HttpGet("https://raw.githubusercontent.com/3jm/demonware-unsupported-games/main/unsupported"))()
+local unsupported_games = loadstring(game:HttpGet("https://raw.githubusercontent.com/3jm/demonware/main/unsupported"))()
 local gameId = game.PlaceId
 for _,v in pairs(unsupported_games) do
     if v == gameId then
@@ -277,17 +277,17 @@ for _,v in pairs(unsupported_games) do
             end
         )
 
-        Tab1:Toggle(
-            "Health Bar",
-            true,
-            function(healthtoggle)
-                if healthtoggle then
-                    global_esp_settings.healthbar = true
-                else
-                    global_esp_settings.healthbar = false
-                end
-            end
-        )
+        -- Tab1:Toggle(
+        --     "Health Bar",
+        --     true,
+        --     function(healthtoggle)
+        --         if healthtoggle then
+        --             global_esp_settings.healthbar = true
+        --         else
+        --             global_esp_settings.healthbar = false
+        --         end
+        --     end
+        -- )
 
         Tab1:Toggle(
             "Box Fill",
