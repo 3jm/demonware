@@ -1,3 +1,11 @@
+<div align="center">
+<h1>DËMONWARË</h1>
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3jm/demonware/main/main.lua"))()
+```
+
+
 (only tested with [synapse](https://x.synapse.to/))
 
 # Preview of script
