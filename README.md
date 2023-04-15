@@ -1,4 +1,6 @@
-Preview of script
+(only tested with [synapse](https://x.synapse.to/))
+
+# Preview of script
 
 ![image](https://github.com/3jm/demonware/blob/main/IMG_6139.jpg)
 
