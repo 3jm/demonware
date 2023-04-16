@@ -1,3 +1,6 @@
+-- 4/16/23
+-- Removed arsenal from unsupported games for now
+
 return {
-    286090429 -- Arsenal ( Because they have their own HRP bullshit )
+    
 }
